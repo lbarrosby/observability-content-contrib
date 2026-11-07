@@ -64,3 +64,7 @@ module "executive-dashboards" {
   source     = "./modules/dashboards/executive-dashboards"
   o11y_prefix = var.o11y_prefix
 }
+module "qdrant" {
+  source     = "./modules/qdrant"
+  o11y_prefix = var.o11y_prefix
+}
